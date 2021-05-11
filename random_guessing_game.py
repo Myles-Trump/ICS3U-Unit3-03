@@ -22,7 +22,7 @@ def main():
     if guess == randomized_number:
         print("You are correct")
 
-    elif guess != randomized_number:
+    else:
         print("You are not correct, the answer was {0}"
               .format(randomized_number))
 
